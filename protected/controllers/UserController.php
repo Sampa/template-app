@@ -55,7 +55,7 @@ class UserController extends Controller
 				{ if ( $model->save() )
 					{
 						$dir = User::USER_DIR . $model->id; 
-						mkdir($dir); 
+						mkdir($dir,0777,true); 
 						if ( Yii::app()->request->isAjaxRequest )
 							{
 								echo CJSON::encode( array (
