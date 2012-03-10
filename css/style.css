@@ -1,0 +1,16 @@
+.flash { 
+	margin:20px 20px 0 20px; 
+}
+.flash .message {
+	padding:8px 12px;
+	font-size:12px;
+	font-style:italic;
+}
+.flash .message.success { 
+	background-color:#e0f8dd;
+	color:#007700;
+}
+.flash .message.error {
+	background-color:#fdd9d9;
+	color:#7a0000;
+}

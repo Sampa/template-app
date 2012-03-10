@@ -1,0 +1,31 @@
+.thumb_menu{
+    padding:5px;
+}
+.xupload_action{
+    display:block;
+    margin-right:10px;
+    width:28px;
+    height:28px;
+    overflow:hidden;
+    text-indent: -2000px;
+    float:left;    
+    border: 1px solid #9AAFE5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom:10px
+}
+.xupload_action:hover{
+    border: 1px solid #0854C7;
+}
+
+.rotateleft{
+background-image: url('images/object-rotate-left.png');
+}
+
+.rotateright{
+background-image: url('images/object-rotate-right.png');
+}
+
+.delete{
+    background-image: url('images/window-close.png');
+}
